@@ -1,0 +1,610 @@
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 23px;
+    background-color: gray;
+    position: relative;
+    height: 30px;
+    margin-bottom:-23px ;
+    margin-top: -20px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    box-shadow: 0,5px 15px rgb(162, 162, 168);
+}
+.logo
+{
+    width: 83px;
+    height: 67px;
+    background-color: rgb(245, 227, 227);
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: 0.3 ease;
+    font-family: cursive;
+    color: white;
+    
+}
+#navbar li a:hover
+{
+    
+    color: rgb(182, 173, 204);
+}
+#navbar li a:active
+{
+text-decoration: underline;
+}
+#hero
+{background: url('https://wallpaperaccess.com/full/3166545.jpg')no-repeat center center/cover;
+    color: aliceblue;
+    font-size: 1.8rem;
+    font-family: cursive;
+    padding: -34px -45px;
+    height: 90vh;
+    width: 100%;
+    color: rgb(161, 102, 5);
+    margin-top: -35px;
+    
+    /* position: absolute;
+    float: left; */
+
+}
+#hero h1{
+    padding-bottom: -45px;
+}
+#hero button{
+    padding: 12px 12px;
+    border: 2px solid rgb(71, 70, 70);
+    border-radius: 10px;
+/* background-color: rgb(226, 166, 166); */
+margin: 0px 82px;
+font-weight: 1000px;
+font-family: cursive;
+font-size: 1.6rem;
+color: rgb(161, 102, 5);
+box-shadow: 5px 10px rgb(161,102,5);
+}
+#features
+{
+    display: flex;
+    padding: 12px 13px;
+    margin-left: 22px;
+
+}
+
+ .img1{
+    height: 120px;
+    width: 130px;
+    margin-top: 10px;
+    /* margin-left: 140px; */
+
+}
+
+.fe-box
+{width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    border: 2px solid #cce7d0;
+    font-size: 1.8rem;
+    margin: 25px 30px;
+    font-family: cursive;
+    box-shadow: 20px 20px 34px rgb(0,0,0,0.03);
+    border-radius: 4px;
+    
+}
+.fe-box h6{
+
+    margin-top: -2px;
+    color: #008178;
+    background-color: #fddde4;
+    
+
+}
+.fe-box:hover{
+    box-shadow: 10px 10px 56px rgb(0,0,0,0.03);
+
+    
+}
+.fe-box:nth-child(2) h6
+{
+    background-color:#e1f7d4 ;
+}
+.fe-box:nth-child(3) h6
+{
+    background-color:#d3d3d3 ;
+}
+.fe-box:nth-child(4) h6
+{
+    background-color:rgb(187, 181, 190) ;
+}
+.fe-box:nth-child(5) h6
+
+{
+    background-color: rgb(219, 190, 190);
+}
+.fe-box:nth-child(6) h6
+{
+    background-color:rgb(240, 240, 150) ;
+}
+#product1
+{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: cursive;
+
+}
+#product1 h2{
+    color: rgb(219, 102, 18);
+    font-size: 3rem;
+    text-shadow: 12px 12px 10px rgb(202, 160, 132);
+    ;
+}
+#product1 p{
+    margin-top: -15px;
+    font-size: 1.5rem;
+    text-shadow: 12px 12px 10px rgb(153, 185, 11);
+}
+.pro
+{
+    width: 13%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    height: 430px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 24px rgb(221, 201, 201);
+transition: 0.3s ease;
+}
+.pro img{
+    width:100%;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    height: 300px;
+}
+.pro:hover{
+    box-shadow: 20px 20px 24px rgb(230, 168, 162);
+
+}
+.inner h5
+{
+    margin-top: -5px;
+    background-color: rgb(188, 219, 219);
+}
+.star
+{
+    margin-top: -25px;
+    color: rgb(231, 87, 154);
+    margin-left: -95px;
+}
+h4{
+    display: inline;
+    padding: 3px 132px;
+    padding-left: 0px;
+    color: #008178;
+    margin-left: -35px;
+
+}
+.pro i{
+    display: inline;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 43px;
+}
+#banner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://i.pinimg.com/originals/ae/b9/fc/aeb9fc8017a52dde594e5d203ab1cf10.jpg')no-repeat center center/cover;
+height: 40vh;
+font-size: 1.8rem;
+padding: -3px -5px;
+font-family: cursive;
+margin-top:12px ;
+}
+#banner h1{
+    margin-top: -25px;
+    color: rgb(224, 178, 118);
+}
+#banner span
+{
+color: red;
+}
+#banner button{
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600px;
+    color: black;
+    background-color: rgb(223, 139, 139);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+
+}
+#banner button:hover{
+    background-color: #008178;
+}
+.banner-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://st2.depositphotos.com/1020618/8347/i/450/depositphotos_83470668-stock-photo-young-happy-woman-with-shopping.jpg')no-repeat center center/cover;
+height: 50vh;
+font-size: 1.8rem;
+padding: -3px -5px;
+font-family: cursive;
+margin-top:12px ;
+margin: 12px 24px;
+width: 50%;
+}
+.banner-box h2{margin-top: -45px;
+    /* color: rgb(224, 178, 118); */
+    color: white;
+}
+.banner-box span{
+    margin-top: -45px;
+    color: white;
+}
+.banner-box button{
+    padding: 12px 45px;
+    font-size: 14px;
+    font-weight: 600px;
+    color: black;
+    background-color: rgb(233, 217, 217);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+#banner1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 13px;
+}
+.banner-box1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://media.istockphoto.com/photos/ten-different-colors-of-tshirts-picture-id514789134?k=20&m=514789134&s=612x612&w=0&h=K0Tm_-0fHGG9qrnbm111QTAd2uewmGLNlIQ7jnvL7U8=')no-repeat center center/cover;
+height: 50vh;
+font-size: 1.8rem;
+padding: -3px -5px;
+font-family: cursive;
+margin-top:12px ;
+margin: 12px 24px;
+width: 50%;
+}
+#features
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.banner-box1 h2{margin-top: -45px;
+    /* color: rgb(224, 178, 118); */
+    color: white;
+}
+.banner-box1 span{
+    margin-top: -45px;
+    color: white;
+}
+.banner-box1 button{
+    padding: 12px 45px;
+    font-size: 14px;
+    font-weight: 600px;
+    color: black;
+    background-color: rgb(233, 217, 217);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+.banner-box1 button:hover
+{
+    background-color: #008178;
+}
+.banner-box button:hover
+{
+    background-color: #008178;
+}
+ .b1
+{ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://images.unsplash.com/photo-1587590834224-3247f65be147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2lybCUyMGdsYXNzZXN8ZW58MHx8MHx8&w=1000&q=80')no-repeat center center/cover;
+height: 50vh;
+font-size: 1.8rem;
+padding: -3px -5px;
+font-family: cursive;
+margin-top:12px ;
+margin: 12px 24px;
+width: 50%;
+min-width: 30%;
+height: 40vh;
+color: white;
+}
+.banner-box3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://thumbs.dreamstime.com/z/beautiful-couple-hat-wearing-trendy-glasses-together-hipster-boy-girl-fashion-bearded-young-men-blonde-model-62543718.jpg')no-repeat center center/cover;
+height: 40vh;
+font-size: 1.8rem;
+padding: -3px -5px;
+font-family: cursive;
+margin-top:12px ;
+margin: 12px 24px;
+width: 50%;
+min-width: 30%;
+color: white;
+}
+.banner-box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbrOYg7Ed4ewgKUq2e3sSNXlUbtPBgEbdMIw&usqp=CAU')no-repeat center center/cover;
+height: 40vh;
+font-size: 1.8rem;
+padding: -3px -5px;
+font-family: cursive;
+margin-top:12px ;
+margin: 12px 24px;
+width: 50%;
+min-width: 30%;
+color: white;
+}
+#banner3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin-top: 12px;
+}
+.b1 h4{
+    margin-bottom: -25px;
+    color: aqua;
+}
+.banner-box3 h4{
+    margin-left: 10px;
+    margin-bottom:-25px ;
+}
+.banner-box4 h4{
+    margin-bottom: -25px;
+}
+.banner-box4 h2{
+    font-size: 1.8rem;
+    color: white;
+}
+.new1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url('https://media.istockphoto.com/vectors/abstract-blue-background-vector-design-vector-id1328692338?k=20&m=1328692338&s=612x612&w=0&h=K1IqANDXP4d7jxg9keW2etOk9WvWVdBBwrSV-KwtbWk=')no-repeat center center/cover;
+
+}
+.n1{
+    margin: 22px;
+    padding-left: 35px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.n1 h4{
+    padding-left: 25px;
+    font-size: 2.3rem;
+}
+.n1 p{
+    margin-top:-5px ;
+    font-size: 1.8rem;
+    font-family: cursive;
+}
+.n2{
+    margin-left: -12px;
+    padding: 10px;
+}
+#hii
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: 10px 10px 72px rgb(0,0,0.06);
+    padding: 6px;
+    width: 300px;
+    margin-top: 12px;
+    font-weight: 600px;
+    font-family: cursive;
+    /* padding-left: -12px; */
+    margin-left: -18px;
+}
+.n2 button{
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 600px;
+    color: black;
+    background-color:#008178;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: -2px;
+    /* width: 100px; */
+    /* padding-left: -10px; */
+
+}
+.n1 span{
+    color: red;
+}
+footer
+{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+}
+.col1
+{padding-left: 108px;
+    /* border: 1px solid red; */
+    margin-top: 32px;
+
+}
+.col1 h4{
+    margin-left: -85px;
+
+}
+.col1 img{
+    margin-bottom: -28px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 40px;
+    padding: 12px 33px;
+
+}
+.col2 h2{
+    margin-top: 52px;
+}
+.col2 a{
+    margin: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.col3
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 40px;
+    padding: 12px 33px;
+
+}
+    
+.col3 h2{
+    margin-top: 52px;
+}
+.col3 a{
+    margin: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.row
+{
+    margin-left: -10px;
+}
+#set2
+{
+    width: 150px;
+    height: 100px;
+    margin-top: -10px;
+}
+#set1
+{
+    width: 120px;
+    height: 40px;
+    margin-top: -150px;
+    padding: 27px ;
+}
+#set3
+{
+    width: 300px;
+    height: 80px;
+    margin-top: -10px;
+}
+.col4
+{
+    /* border: 2px solid red; */
+    margin-left: 32px;
+    margin-top: 42px;
+    padding: -10px;
+}
+.col4 a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+}
+.col4 h5{
+    margin-top: -10px;
+    font-size: 1.3rem;
+}
+.copy
+{
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+}
+.col1 i:hover{
+    color: #008178;
+
+}
+.col2 a:hover{
+    color: #008178;
+}
+.col3 a:hover{
+    color: #008178;
+}
+.col4 a:hover{
+    color: #008178;
+}
+/* #section-p1
+{
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* @media(max-width:500)
+{
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+} */
+
+
+
